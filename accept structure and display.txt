@@ -1,0 +1,22 @@
+#include<stdio.h>
+struct emp
+{
+	int eno;
+	char ename[20];
+	float sal;
+}e1[100];
+int main()
+{
+	int i;
+	for(i=0;i<5;i++)
+	{
+	printf("enter eno name sal");
+	scanf("%d%s%f",e1[i].eno,e1[i].ename,e1[i].sal);
+	}
+	for(i=0;i<5;i++)
+	{
+	printf("emp number=%d",eno);
+	printf("emp name=%s",ename);
+	printf("emp salary=%f",sal);
+	}
+}
